@@ -9,6 +9,10 @@ const route = createBrowserRouter([
     path: "/",
     element: <Landing />,
   },
+  {
+    path: "/Chlyn-Portfolio",
+    element: <Landing />,
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(

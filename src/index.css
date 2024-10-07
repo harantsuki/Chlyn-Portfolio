@@ -1,9 +1,9 @@
+/* HELEVTICA */
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-5");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* HELEVTICA */
-@import url("https://fonts.cdnfonts.com/css/helvetica-neue-5");
 
 *,
 html {
@@ -35,7 +35,8 @@ body {
     padding: 30px 150px;
   }
 }
-0 @media screen and (max-width: 1613px) {
+
+@media screen and (max-width: 1613px) {
   .pr-container {
     height: 130vh;
   }
