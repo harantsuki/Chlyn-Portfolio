@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* HELEVTICA */
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-5");
+
+*,
+html {
+  font-family: "Helvetica Neue", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #171717;
+}
+
+@media screen and (max-width: 1669px) {
+  .nb-container {
+    padding: 40px 150px;
+  }
+  .hm-container {
+    padding: 0 150px;
+  }
+  .ab-container {
+    padding: 0 150px;
+  }
+  .pr-container {
+    padding: 0 150px;
+  }
+  .sk-container {
+    padding: 0 150px;
+  }
+  .fo-container {
+    padding: 30px 150px;
+  }
+}
+0 @media screen and (max-width: 1613px) {
+  .pr-container {
+    height: 130vh;
+  }
+  .pr-wrapper-content {
+    gap: 40px;
+  }
+  .pr-wrapper-img {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 1427px) {
+  .nb-container {
+    padding: 40px 50px;
+  }
+  .hm-container {
+    padding: 0 50px;
+  }
+  .ab-container {
+    padding: 0 50px;
+  }
+  .pr-container {
+    padding: 0 50px;
+  }
+  .sk-container {
+    padding: 0 50px;
+  }
+  .co-container {
+    padding: 0 50px;
+  }
+  .fo-container {
+    padding: 30px 50px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .nb-wrapper-navigation-lg {
+    gap: 60px;
+  }
+  .ab-icon-furina {
+    width: 300px;
+  }
+  .ab-wrapper-content {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 1116px) {
+  .sk-container {
+    height: 120vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ab-wrapper-content {
+    flex-direction: column;
+  }
+  .ab-icon-furina {
+    width: 220px;
+  }
+  .ab-title {
+    font-size: 40px;
+  }
+  .ab-subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .ab-desc {
+    font-size: 13px;
+  }
+  .pr-container {
+    height: 175vh;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .nb-wrapper-navigation-sm {
+    display: none;
+  }
+  .nb-icon-bar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .nb-container {
+    padding: 40px 25px;
+  }
+  .hm-container {
+    padding: 40px 25px;
+  }
+  .nb-wrapper-navigation-lg {
+    display: none;
+  }
+  .nb-wrapper-navigation-sm {
+    display: flex;
+  }
+  .nb-wrapper-icon {
+    display: block;
+  }
+  .hm-title {
+    font-size: 70px;
+  }
+  .hm-desc {
+    font-size: 20px;
+  }
+  .ab-button {
+    margin-bottom: 35px;
+  }
+  .pr-title {
+    font-size: 45px;
+  }
+  .pr-subtitle {
+    font-size: 15px;
+  }
+  .pr-wrapper-project {
+    width: 280px;
+    height: 320px;
+  }
+  .pr-project-title {
+    font-size: 30px;
+  }
+  .pr-project-subtitle {
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  .fo-wrapper-content {
+    padding: 0 50px;
+  }
+  .fo-wrapper-navigation {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 836px) {
+  .sk-container {
+    height: 210vh;
+  }
+  .sk-wrapper-content {
+    gap: 40px;
+  }
+  .sk-title {
+    font-size: 45px;
+  }
+  .sk-subtitle {
+    font-size: 15px;
+  }
+  .co-container {
+    height: 65vh;
+  }
+  .co-wrapper-contact {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .pr-container {
+    height: 145vh;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .ab-container {
+    height: 100vh;
+  }
+  .fo-wrapper-content {
+    flex-direction: column;
+    gap: 23px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hm-title {
+    font-size: 50px;
+  }
+  .hm-subtitle {
+    margin-bottom: 0;
+    font-size: 17px;
+  }
+  .hm-desc {
+    line-height: 25px;
+  }
+}
